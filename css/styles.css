@@ -937,13 +937,13 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-check:checked + .check-text-wrap {
+.modal-check:checked + .check-text .check-text-wrap {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
 }
 
-.modal-check:focus + .check-text-wrap{
+.modal-check:focus + .check-text .check-text-wrap{
     border-color:#4D5AE5;
 }
 
